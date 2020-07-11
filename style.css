@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #000;
+    
     width: 100%;
     height: 100vh;
     display: flex;
@@ -13,24 +13,36 @@ body {
 }
 
 .container{
-    width: 400px;
-    padding: 1rem 1.5rem;
+    width: 800px;
+    /* width: 400px; */
+    background: #000;
+    padding: 1.5rem;
+    border-radius: 1rem;
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5rem;
-    font-weight: 800;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .container #screen {
     height: 7vh;
     background: transparent;
     border: 2px solid #ccc;
-    border-radius: .5rem;
+    border-radius: 8px;
+}
+
+.container .calculator {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.container .calculator .basic {
+    font-size: 20px;
 }
 
 .container div.row{
     text-align: center;
-    margin: 1rem 0;
+    margin: 16px 0;
     height: 80px;
     display: flex;
     justify-content: space-around;
@@ -38,12 +50,11 @@ body {
 }
 
 .container div span{
-    background: #22223d;
-    padding: 1.4rem 0;
+    background: #2a2a2a;
+    padding: 20px 0;
     border-radius: 10rem;
-    margin: 0 .5rem;
-    flex-basis: 20px;
-    flex-grow: 1;
+    margin: 0 8px;
+    flex: 1 0 20px;
 }
 
 .container div span#double1{
@@ -60,5 +71,5 @@ body {
 }
 
 .container div .numeric{
-    background: #333;
+    background: #464545;
 }

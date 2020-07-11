@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.container{
+    width: 400px;
+    background: #8b8b8b;
+    margin: auto;
+    padding: 1rem 1.5rem;
+    color: #fff;
+}
+
+.container div{
+    border: 1px solid blue;
+    text-align: center;
+    margin: 1rem 0;
+    height: 50px;
+    display: flex;
+    flex: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container div span{
+    background: #22223d;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin: 0 .8rem;
+    flex-grow: 1;
+}
+
+.container div #double {
+    flex-grow: 1;
+}

@@ -1,0 +1,6 @@
+validate mathematical expression
+For basic mathematical expression:
+	* can start with either a digit or (+/-) expression.
+	* must not end with an operator
+	* a mathematical operator cannot follow a "." digit
+	* maximum of only two consecutive * operator
